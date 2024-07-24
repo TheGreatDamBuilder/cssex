@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    background-color: rgb(207, 228, 230);}
+
+
+
+        .A {
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+              box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+              width: 550px;
+            }
+
+        .A dt{            
+            margin: 10px;
+            text-align: center;
+            color: #295c00; font-size: 35px;
+        }
+
+        .A dl{            
+            font-size: 20px;
+        }
+
+        .sc {
+                text-align: center;
+              }
+
+        .sc img{
+                text-align: center;
+                width: 400px; 
+                height: 341px;
+                border: 5px solid rgb(0, 0, 0);
+              }
+        
+        .bg1{
+            background-color: orange;
+            text-align: center;
+            font-family: "Prompt", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 10px; padding: 20px;
+            border: 5px solid rgb(0, 0, 0);
+            padding: 30px;
+        }
+
+        .bg2{
+            background-color: rgb(0, 124, 37);
+            font-family: "Prompt", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 10px; padding: 20px;
+            border: 5px solid rgb(0, 0, 0);
+            padding: 30px;
+        }
+
+        .bg2 table,td,th {
+        border: 5px soddd black;border-collapse: collapse;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 0 auto;
+        }
+
+        .bg3{
+            background-color: rgb(50, 75, 158);
+            text-align: center;
+            font-family: "Prompt", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 10px; padding: 20px;
+            border: 5px solid rgb(0, 0, 0);
+            padding: 30px;
+        }
+
+        .bg4{
+            background-color: rgb(213, 215, 221);
+            border: 5px solid rgb(0, 0, 0);
+            padding: 30px;
+        }
+
+        .bg5{
+            background-color: rgb(187, 127, 177);
+            margin: 10px; padding: 20px;
+            border: 5px solid rgb(0, 0, 0);
+            padding: 30px;
+        }
+
+        .circle-frame {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            border: 10px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            display: block;
+          }
+          
+          .circle-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+          }
